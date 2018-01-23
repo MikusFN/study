@@ -1,6 +1,6 @@
 #include <stdio.h>
 #include <string.h>
-//Git comment like a champ
+//Git comment like a champ from gitHub
 int main(void)
 {
 	char nome[1000];
@@ -10,16 +10,16 @@ int main(void)
 	printf("Insira Nome:\n");
 	gets(nome);
 	
-	// Converte todos os caracteres da string para maiúsculas
+	// Converte todos os caracteres da string para maiÃºsculas
 	strupr(nome);
 	
-	// Ignora caracteres de espaço, no início da string
+	// Ignora caracteres de espaÃ§o, no inÃ­cio da string
 	for (i = 0; nome[i] == ' '; i++);
 
-	// Se existe pelo menos um carácter
+	// Se existe pelo menos um carÃ¡cter
 	if (nome[i] != '\0')
 	{
-		// Então há pelo menos uma palavra
+		// EntÃ£o hÃ¡ pelo menos uma palavra
 		conta_palavras = 1;
 	}
 
@@ -30,7 +30,7 @@ int main(void)
 		{
 			conta_palavras++;
 
-			// Ignora uma sequência de espaços
+			// Ignora uma sequÃªncia de espaÃ§os
 			while (nome[j + 1] == ' ')
 			{
 				j++;
@@ -38,10 +38,10 @@ int main(void)
 		}
 	}
 
-	// Se o último carácter é um espaço, e há pelo menos uma palavra
+	// Se o Ãºltimo carÃ¡cter Ã© um espaÃ§o, e hÃ¡ pelo menos uma palavra
 	if ((nome[j - 1] == ' ') && (conta_palavras >= 1))
 	{
-		// Então há menos uma palavra
+		// EntÃ£o hÃ¡ menos uma palavra
 		conta_palavras--;
 	}
 
@@ -56,7 +56,7 @@ int main(void)
 		}
 	}
 
-	// Encontra o maior número de ocorrências
+	// Encontra o maior nÃºmero de ocorrÃªncias
 	max = conta_letras[0];
 
 
@@ -73,7 +73,7 @@ int main(void)
 	{
 		if (conta_letras[i] == max)
 		{
-			printf("\nLETRA: %c", i + 65); // Nota que o valor decimal 65 corresponde ao carácter 'A'
+			printf("\nLETRA: %c", i + 65); // Nota que o valor decimal 65 corresponde ao carÃ¡cter 'A'
 		}
 	}
 
