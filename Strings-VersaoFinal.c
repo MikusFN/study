@@ -1,6 +1,6 @@
 #include <stdio.h>
 #include <string.h>
-//Git comment like a champ know from the PC to GitHub
+//Git comment like a champ part2
 int main(void)
 {
 	char nome[1000];
