@@ -1,6 +1,6 @@
 #include <stdio.h>
 #include <string.h>
-//Git comment
+//Git comment like a champ
 int main(void)
 {
 	char nome[1000];
