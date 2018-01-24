@@ -1,6 +1,12 @@
-#include <stdio.h>
+#include<stdit.h>
+
 #include <string.h>
+<<<<<<< HEAD
 //This mother fucking branch
+=======
+//Git comment like a champ 
+//now to cause some merging probs: 
+>>>>>>> sideBranch
 int main(void)
 {
 	char nome[1000];
