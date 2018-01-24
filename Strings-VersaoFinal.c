@@ -1,6 +1,7 @@
 #include <stdio.h>
 #include <string.h>
-//Git comment like a champ from the terminal editor of Git XD
+//Git comment like a champ 
+//now to cause some merging probs: 
 int main(void)
 {
 	char nome[1000];
