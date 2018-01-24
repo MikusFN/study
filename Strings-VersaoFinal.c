@@ -1,6 +1,6 @@
 #include <stdio.h>
 #include <string.h>
-//Git comment like a champ part3
+//Git comment like a champ from the terminal editor of Git XD
 int main(void)
 {
 	char nome[1000];
@@ -25,6 +25,7 @@ int main(void)
 
 	// Conta palavras
 	for (j = i; nome[j] != '\0'; j++)
+
 	{
 		if (nome[j] == ' ')
 		{
